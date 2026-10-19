@@ -179,6 +179,10 @@ public final class LosErrorConstants {
           + "to one of the configured approval workflow stages before recording "
           + "approval decisions.";
 
+  /** Message returned when the caller is authenticated but not allowed to perform an action. */
+  public static final String MSG_ACCESS_DENIED =
+      "You do not have permission to perform this action.";
+
   /** Message when request fields fail validation. */
   public static final String MSG_REQUEST_VALIDATION_FAILED = "Request contains invalid fields.";
 
